@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0314ED6C18E8894F008B59DC /* alienSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0314ED6B18E8894E008B59DC /* alienSound.mp3 */; };
+		0314ED6E18E8895D008B59DC /* coinDrop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0314ED6D18E8895D008B59DC /* coinDrop.mp3 */; };
+		0314ED7318E8896F008B59DC /* electronicWaterDrop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0314ED6F18E8896F008B59DC /* electronicWaterDrop.mp3 */; };
+		0314ED7418E8896F008B59DC /* flappyBirdSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0314ED7018E8896F008B59DC /* flappyBirdSound.mp3 */; };
+		0314ED7518E8896F008B59DC /* quickStickHit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0314ED7118E8896F008B59DC /* quickStickHit.mp3 */; };
+		0314ED7618E8896F008B59DC /* wazeSynth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0314ED7218E8896F008B59DC /* wazeSynth.mp3 */; };
+		0315935F18DCCD170042E0FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0315935E18DCCD170042E0FC /* Foundation.framework */; };
+		0315936118DCCD170042E0FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0315936018DCCD170042E0FC /* CoreGraphics.framework */; };
+		0315936318DCCD170042E0FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0315936218DCCD170042E0FC /* UIKit.framework */; };
+		0315936518DCCD170042E0FC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0315936418DCCD170042E0FC /* CoreData.framework */; };
+		0315936B18DCCD170042E0FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0315936918DCCD170042E0FC /* InfoPlist.strings */; };
+		0315936D18DCCD170042E0FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0315936C18DCCD170042E0FC /* main.m */; };
+		0315937118DCCD170042E0FC /* MegaWinAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0315937018DCCD170042E0FC /* MegaWinAppDelegate.m */; };
+		0315937418DCCD170042E0FC /* Mega_Win.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0315937218DCCD170042E0FC /* Mega_Win.xcdatamodeld */; };
+		0315937618DCCD170042E0FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0315937518DCCD170042E0FC /* Images.xcassets */; };
+		0315939418DCCD340042E0FC /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0315939318DCCD340042E0FC /* Storyboard.storyboard */; };
+		0315939F18DCCD690042E0FC /* GenerateNumbersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0315939618DCCD690042E0FC /* GenerateNumbersViewController.m */; };
+		031593A018DCCD690042E0FC /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0315939818DCCD690042E0FC /* InformationViewController.m */; };
+		031593A118DCCD690042E0FC /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0315939A18DCCD690042E0FC /* InitialViewController.m */; };
+		031593A218DCCD690042E0FC /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0315939C18DCCD690042E0FC /* ResultsViewController.m */; };
+		031593A318DCCD690042E0FC /* SavedNumbersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0315939E18DCCD690042E0FC /* SavedNumbersTableViewController.m */; };
+		031593A718DCCD920042E0FC /* NumberGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 031593A618DCCD920042E0FC /* NumberGenerator.m */; };
+		031593AA18DCCEE60042E0FC /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031593A918DCCEE50042E0FC /* iAd.framework */; };
+		031593AC18DCCEEE0042E0FC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031593AB18DCCEEE0042E0FC /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0314ED6B18E8894E008B59DC /* alienSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alienSound.mp3; sourceTree = "<group>"; };
+		0314ED6D18E8895D008B59DC /* coinDrop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coinDrop.mp3; sourceTree = "<group>"; };
+		0314ED6F18E8896F008B59DC /* electronicWaterDrop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = electronicWaterDrop.mp3; sourceTree = "<group>"; };
+		0314ED7018E8896F008B59DC /* flappyBirdSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flappyBirdSound.mp3; sourceTree = "<group>"; };
+		0314ED7118E8896F008B59DC /* quickStickHit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quickStickHit.mp3; sourceTree = "<group>"; };
+		0314ED7218E8896F008B59DC /* wazeSynth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wazeSynth.mp3; sourceTree = "<group>"; };
+		0315935B18DCCD170042E0FC /* MegaWin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaWin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0315935E18DCCD170042E0FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0315936018DCCD170042E0FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0315936218DCCD170042E0FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0315936418DCCD170042E0FC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0315936818DCCD170042E0FC /* MegaWin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MegaWin-Info.plist"; sourceTree = "<group>"; };
+		0315936A18DCCD170042E0FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0315936C18DCCD170042E0FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0315936E18DCCD170042E0FC /* Mega Win-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mega Win-Prefix.pch"; sourceTree = "<group>"; };
+		0315936F18DCCD170042E0FC /* MegaWinAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MegaWinAppDelegate.h; sourceTree = "<group>"; };
+		0315937018DCCD170042E0FC /* MegaWinAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MegaWinAppDelegate.m; sourceTree = "<group>"; };
+		0315937318DCCD170042E0FC /* Mega_Win.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mega_Win.xcdatamodel; sourceTree = "<group>"; };
+		0315937518DCCD170042E0FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0315937C18DCCD170042E0FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0315938518DCCD170042E0FC /* MegaWinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MegaWinTests-Info.plist"; sourceTree = "<group>"; };
+		0315938718DCCD170042E0FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0315938918DCCD170042E0FC /* Mega_WinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mega_WinTests.m; sourceTree = "<group>"; };
+		0315939318DCCD340042E0FC /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		0315939518DCCD690042E0FC /* GenerateNumbersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenerateNumbersViewController.h; path = "Mega Win/GenerateNumbersViewController.h"; sourceTree = "<group>"; };
+		0315939618DCCD690042E0FC /* GenerateNumbersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GenerateNumbersViewController.m; path = "Mega Win/GenerateNumbersViewController.m"; sourceTree = "<group>"; };
+		0315939718DCCD690042E0FC /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InformationViewController.h; path = "Mega Win/InformationViewController.h"; sourceTree = "<group>"; };
+		0315939818DCCD690042E0FC /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InformationViewController.m; path = "Mega Win/InformationViewController.m"; sourceTree = "<group>"; };
+		0315939918DCCD690042E0FC /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InitialViewController.h; path = "Mega Win/InitialViewController.h"; sourceTree = "<group>"; };
+		0315939A18DCCD690042E0FC /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InitialViewController.m; path = "Mega Win/InitialViewController.m"; sourceTree = "<group>"; };
+		0315939B18DCCD690042E0FC /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultsViewController.h; path = "Mega Win/ResultsViewController.h"; sourceTree = "<group>"; };
+		0315939C18DCCD690042E0FC /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultsViewController.m; path = "Mega Win/ResultsViewController.m"; sourceTree = "<group>"; };
+		0315939D18DCCD690042E0FC /* SavedNumbersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SavedNumbersTableViewController.h; path = "Mega Win/SavedNumbersTableViewController.h"; sourceTree = "<group>"; };
+		0315939E18DCCD690042E0FC /* SavedNumbersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SavedNumbersTableViewController.m; path = "Mega Win/SavedNumbersTableViewController.m"; sourceTree = "<group>"; };
+		031593A518DCCD920042E0FC /* NumberGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberGenerator.h; sourceTree = "<group>"; };
+		031593A618DCCD920042E0FC /* NumberGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberGenerator.m; sourceTree = "<group>"; };
+		031593A918DCCEE50042E0FC /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		031593AB18DCCEEE0042E0FC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0315935818DCCD170042E0FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031593AC18DCCEEE0042E0FC /* AudioToolbox.framework in Frameworks */,
+				031593AA18DCCEE60042E0FC /* iAd.framework in Frameworks */,
+				0315936118DCCD170042E0FC /* CoreGraphics.framework in Frameworks */,
+				0315936518DCCD170042E0FC /* CoreData.framework in Frameworks */,
+				0315936318DCCD170042E0FC /* UIKit.framework in Frameworks */,
+				0315935F18DCCD170042E0FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0315935218DCCD170042E0FC = {
+			isa = PBXGroup;
+			children = (
+				0315939318DCCD340042E0FC /* Storyboard.storyboard */,
+				031593A418DCCD700042E0FC /* ViewControllers */,
+				0315936618DCCD170042E0FC /* Mega Win */,
+				0315938318DCCD170042E0FC /* Mega WinTests */,
+				0315935D18DCCD170042E0FC /* Frameworks */,
+				0315935C18DCCD170042E0FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0315935C18DCCD170042E0FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0315935B18DCCD170042E0FC /* MegaWin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0315935D18DCCD170042E0FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				031593AB18DCCEEE0042E0FC /* AudioToolbox.framework */,
+				031593A918DCCEE50042E0FC /* iAd.framework */,
+				0315935E18DCCD170042E0FC /* Foundation.framework */,
+				0315936018DCCD170042E0FC /* CoreGraphics.framework */,
+				0315936218DCCD170042E0FC /* UIKit.framework */,
+				0315936418DCCD170042E0FC /* CoreData.framework */,
+				0315937C18DCCD170042E0FC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0315936618DCCD170042E0FC /* Mega Win */ = {
+			isa = PBXGroup;
+			children = (
+				0315936F18DCCD170042E0FC /* MegaWinAppDelegate.h */,
+				0315937018DCCD170042E0FC /* MegaWinAppDelegate.m */,
+				0315937518DCCD170042E0FC /* Images.xcassets */,
+				0315937218DCCD170042E0FC /* Mega_Win.xcdatamodeld */,
+				0315936718DCCD170042E0FC /* Supporting Files */,
+			);
+			path = "Mega Win";
+			sourceTree = "<group>";
+		};
+		0315936718DCCD170042E0FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0314ED6B18E8894E008B59DC /* alienSound.mp3 */,
+				0314ED6D18E8895D008B59DC /* coinDrop.mp3 */,
+				0314ED6F18E8896F008B59DC /* electronicWaterDrop.mp3 */,
+				0314ED7018E8896F008B59DC /* flappyBirdSound.mp3 */,
+				0314ED7118E8896F008B59DC /* quickStickHit.mp3 */,
+				0314ED7218E8896F008B59DC /* wazeSynth.mp3 */,
+				0315936818DCCD170042E0FC /* MegaWin-Info.plist */,
+				0315936918DCCD170042E0FC /* InfoPlist.strings */,
+				0315936C18DCCD170042E0FC /* main.m */,
+				0315936E18DCCD170042E0FC /* Mega Win-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0315938318DCCD170042E0FC /* Mega WinTests */ = {
+			isa = PBXGroup;
+			children = (
+				0315938918DCCD170042E0FC /* Mega_WinTests.m */,
+				0315938418DCCD170042E0FC /* Supporting Files */,
+			);
+			path = "Mega WinTests";
+			sourceTree = "<group>";
+		};
+		0315938418DCCD170042E0FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0315938518DCCD170042E0FC /* MegaWinTests-Info.plist */,
+				0315938618DCCD170042E0FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		031593A418DCCD700042E0FC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0315939518DCCD690042E0FC /* GenerateNumbersViewController.h */,
+				0315939618DCCD690042E0FC /* GenerateNumbersViewController.m */,
+				0315939718DCCD690042E0FC /* InformationViewController.h */,
+				0315939818DCCD690042E0FC /* InformationViewController.m */,
+				0315939918DCCD690042E0FC /* InitialViewController.h */,
+				0315939A18DCCD690042E0FC /* InitialViewController.m */,
+				0315939B18DCCD690042E0FC /* ResultsViewController.h */,
+				0315939C18DCCD690042E0FC /* ResultsViewController.m */,
+				0315939D18DCCD690042E0FC /* SavedNumbersTableViewController.h */,
+				0315939E18DCCD690042E0FC /* SavedNumbersTableViewController.m */,
+				031593A818DCCD9D0042E0FC /* Model */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		031593A818DCCD9D0042E0FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				031593A518DCCD920042E0FC /* NumberGenerator.h */,
+				031593A618DCCD920042E0FC /* NumberGenerator.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0315935A18DCCD170042E0FC /* MegaWin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0315938D18DCCD170042E0FC /* Build configuration list for PBXNativeTarget "MegaWin" */;
+			buildPhases = (
+				0315935718DCCD170042E0FC /* Sources */,
+				0315935818DCCD170042E0FC /* Frameworks */,
+				0315935918DCCD170042E0FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MegaWin;
+			productName = "Mega Win";
+			productReference = 0315935B18DCCD170042E0FC /* MegaWin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0315935318DCCD170042E0FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MegaWin;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Joshua Alvarado";
+				TargetAttributes = {
+					0315935A18DCCD170042E0FC = {
+						DevelopmentTeam = 39WG57SP6D;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0315935618DCCD170042E0FC /* Build configuration list for PBXProject "MegaWin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0315935218DCCD170042E0FC;
+			productRefGroup = 0315935C18DCCD170042E0FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0315935A18DCCD170042E0FC /* MegaWin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0315935918DCCD170042E0FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0314ED7518E8896F008B59DC /* quickStickHit.mp3 in Resources */,
+				0315936B18DCCD170042E0FC /* InfoPlist.strings in Resources */,
+				0314ED7418E8896F008B59DC /* flappyBirdSound.mp3 in Resources */,
+				0314ED7318E8896F008B59DC /* electronicWaterDrop.mp3 in Resources */,
+				0315937618DCCD170042E0FC /* Images.xcassets in Resources */,
+				0314ED6C18E8894F008B59DC /* alienSound.mp3 in Resources */,
+				0314ED6E18E8895D008B59DC /* coinDrop.mp3 in Resources */,
+				0314ED7618E8896F008B59DC /* wazeSynth.mp3 in Resources */,
+				0315939418DCCD340042E0FC /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0315935718DCCD170042E0FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031593A018DCCD690042E0FC /* InformationViewController.m in Sources */,
+				031593A218DCCD690042E0FC /* ResultsViewController.m in Sources */,
+				0315939F18DCCD690042E0FC /* GenerateNumbersViewController.m in Sources */,
+				031593A718DCCD920042E0FC /* NumberGenerator.m in Sources */,
+				0315936D18DCCD170042E0FC /* main.m in Sources */,
+				031593A118DCCD690042E0FC /* InitialViewController.m in Sources */,
+				0315937118DCCD170042E0FC /* MegaWinAppDelegate.m in Sources */,
+				031593A318DCCD690042E0FC /* SavedNumbersTableViewController.m in Sources */,
+				0315937418DCCD170042E0FC /* Mega_Win.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0315936918DCCD170042E0FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0315936A18DCCD170042E0FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0315938618DCCD170042E0FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0315938718DCCD170042E0FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0315938B18DCCD170042E0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0315938C18DCCD170042E0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0315938E18DCCD170042E0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mega Win/MegaWin-Prefix.pch";
+				INFOPLIST_FILE = "Mega Win/MegaWin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = MegaWin;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0315938F18DCCD170042E0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mega Win/MegaWin-Prefix.pch";
+				INFOPLIST_FILE = "Mega Win/MegaWin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = MegaWin;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0315935618DCCD170042E0FC /* Build configuration list for PBXProject "MegaWin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0315938B18DCCD170042E0FC /* Debug */,
+				0315938C18DCCD170042E0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0315938D18DCCD170042E0FC /* Build configuration list for PBXNativeTarget "MegaWin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0315938E18DCCD170042E0FC /* Debug */,
+				0315938F18DCCD170042E0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0315937218DCCD170042E0FC /* Mega_Win.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0315937318DCCD170042E0FC /* Mega_Win.xcdatamodel */,
+			);
+			currentVersion = 0315937318DCCD170042E0FC /* Mega_Win.xcdatamodel */;
+			path = Mega_Win.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0315935318DCCD170042E0FC /* Project object */;
+}
